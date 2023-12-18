@@ -1,5 +1,7 @@
 # Coding Challenges
 
+## About
+
 Hello!  This is a repository to keep track of my coding challenges (typically sourced from [LeetCode](https://leetcode.com/problemset/all/)).
 
 Each file, when ran, will print out:
@@ -9,6 +11,8 @@ Each file, when ran, will print out:
 - And a few inputed use cases and their output.
 
 For further information on how the problem was solved, please consult the file itself for the solution.
+
+## Instructions
 
 Typically I solve my coding challenges with Python.  To run any of these challeneges on a MacOS with a silicon M1 chip follow the instruction below:
 
