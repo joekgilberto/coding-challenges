@@ -41,7 +41,15 @@ def twoSum(nums, target):
             if sum == target:
                 return [i,j]
 
+print("")
+print("Two Sum:")
+print("--------")
+print("Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.  You may assume that each input would have exactly one solution, and you may not use the same element twice.  You can return the answer in any order.")
+print("")
+print("Constraints:\n2 <= nums.length <= 104\n-109 <= nums[i] <= 109\n-109 <= target <= 109\nOnly one valid answer exists.")
+print("")
 
-print(twoSum([2,7,11,15], 9))
-print(twoSum([3,2,4], 6))
-print(twoSum([3,3], 6))
+print(f"twoSum([2,7,11,15], 9) => {twoSum([2,7,11,15], 9)}")
+print(f"twoSum([3,2,4], 6) => {twoSum([3,2,4], 6)}")
+print(f"twoSum([3,3], 6) => {twoSum([3,3], 6)}")
+print("")
