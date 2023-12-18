@@ -14,7 +14,7 @@ Typically I solve my coding challenges with Python.  To run any of these challen
 
 1. Clone this repository from GitHub.
 2. If need be download the appropriate [Python package](https://www.python.org/downloads/) for your system.
-3. Using your Terminal, navigate into the proper directory.
+3. Using your Terminal, navigate into the "coding-challenges" directory and then into its sub directory, "solutions".
 4. Create a virtual environment using the following command:
 
 ```
