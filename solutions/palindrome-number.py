@@ -50,8 +50,18 @@ print("Given an integer x, return true if x is a palindrome, and false otherwise
 print("")
 print("Constraints:\n0 <= s.length <= 5 * 104\ns consists of English letters, digits, symbols and spaces.")
 print("")
-
+print("Examples")
+print("--------")
 print(f"isPalindrome(121) => {isPalindrome(121)}")
 print(f"isPalindrome(-121) => {isPalindrome(-121)}")
 print(f"isPalindrome(10) => {isPalindrome(10)}")
+print("")
+print("Try It Out!")
+print("-----------")
+
+example_num = input("Input your own string:\t")
+converted_num = int(example_num)
+
+print("")
+print(f"isPalindrome({converted_num}) => {isPalindrome(converted_num)}")
 print("")

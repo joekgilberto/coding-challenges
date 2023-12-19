@@ -53,7 +53,7 @@ It is guaranteed that s is a valid roman numeral in the range [1, 3999].
 '''
 
 def romanToInt(s):
-    romans = [*s]
+    romans = [*s.upper()]
     total = 0
 
     def nextIs(idx,letter):
@@ -120,8 +120,18 @@ print("Given a roman numeral, convert it to an integer.")
 print("")
 print("Constraints:\n1 <= s.length <= 15\ns contains only the characters ('I', 'V', 'X', 'L', 'C', 'D', 'M').\nIt is guaranteed that s is a valid roman numeral in the range [1, 3999].")
 print("")
-
+print("Examples")
+print("--------")
 print(f"romanToInt('III') => {romanToInt('III')}")
 print(f"romanToInt('LVIII') => {romanToInt('LVIII')}")
 print(f"romanToInt('MCMXCIV') => {romanToInt('MCMXCIV')}")
+print("")
+print("Try It Out!")
+print("-----------")
+
+example_str = input("Input your own valid roman numeral:\t")
+converted_str = example_str.upper()
+
+print("")
+print(f"romanToInt({example_str.upper()}) => {romanToInt(example_str.upper())}")
 print("")

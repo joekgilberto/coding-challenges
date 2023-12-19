@@ -59,7 +59,7 @@ print(f"twoSum([3,2,4], 6) => {twoSum([3,2,4], 6)}")
 print(f"twoSum([3,3], 6) => {twoSum([3,3], 6)}")
 print("")
 print("Try It Out!")
-print("----------")
+print("-----------")
 
 example_nums = input("Input your own array of numbers:\t")
 converted_nums = np.array(literal_eval(example_nums))
@@ -68,3 +68,4 @@ converted_target = int(example_target)
 
 print("")
 print(f"twoSum({example_nums}, {example_target}) => {twoSum(converted_nums, converted_target)}")
+print("")

@@ -61,8 +61,17 @@ print("Given a string s, find the length of the longest substring without repeat
 print("")
 print("Constraints:\n0 <= s.length <= 5 * 104\ns consists of English letters, digits, symbols and spaces.")
 print("")
-
+print("Examples")
+print("--------")
 print(f"lengthOfLongestSubstring('abcabcbb') => {lengthOfLongestSubstring('abcabcbb')}")
 print(f"lengthOfLongestSubstring('bbbbb') => {lengthOfLongestSubstring('bbbbb')}")
 print(f"lengthOfLongestSubstring('pwwkew') => {lengthOfLongestSubstring('pwwkew')}")
+print("")
+print("Try It Out!")
+print("-----------")
+
+example_str = input("Input your own string:\t")
+
+print("")
+print(f"lengthOfLongestSubstring({example_str}) => {lengthOfLongestSubstring(example_str)}")
 print("")
