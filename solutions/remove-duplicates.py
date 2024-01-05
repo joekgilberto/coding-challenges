@@ -39,9 +39,10 @@ def removeDuplicates(nums):
     for num in nums:
         if num not in cache:
             cache.append(num)
-    print(cache)
-    print(len(cache))
+    return len(cache)
 
 
 removeDuplicates([1,1,2])
 removeDuplicates([0,0,1,1,1,2,2,3,3,4])
+
+print("This file is a work in progress, please check back later!")
