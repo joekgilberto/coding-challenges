@@ -1,5 +1,5 @@
 '''
-Two Sum
+Remove Duplicates from Sorted Array
 
 Link: https://leetcode.com/problems/remove-duplicates-from-sorted-array
 --------
@@ -37,10 +37,11 @@ nums is sorted in non-decreasing order.
 def removeDuplicates(nums):
     cache = []
     for num in nums:
-        if num  in cache:
-            continue
-        else:
+        if num not in cache:
             cache.append(num)
-    return len(cache)
+    print(cache)
+    print(len(cache))
 
 
+removeDuplicates([1,1,2])
+removeDuplicates([0,0,1,1,1,2,2,3,3,4])
